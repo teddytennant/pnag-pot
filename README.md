@@ -1,6 +1,4 @@
-# pnag-pot
-
-Proximal Nesterov accelerated gradient for quadratically or elastic-net regularized partial optimal transport. Marginal inequalities are handled by an exterior penalty; the returned plan is projected onto the partial transport set by ROUND-POT.
+Implementation in JAX of proximal Nesterov for sparse regularized partial optimal transport (arXiv:2609.40075). Marginal inequalities are handled by an exterior penalty; the returned plan is projected onto the partial transport set by ROUND-POT.
 
 ```bash
 pip install -e .
